@@ -27,12 +27,27 @@ class Home extends Component{
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+
 </div>
+<section id="feature">  
+<div className="container">
+<h2>Features</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores, quaerat maxime fuga, optio obcaecati, iusto saepe placeat suscipit consectetur dolorem eos quia itaque maiores ex tenetur porro! Provident, corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium non eos hic nostrum aspernatur repudiandae ullam maxime totam dicta qui ducimus consequuntur quas, saepe reiciendis assumenda ratione labore sunt? . Lorem
+   </p>
+</div>
+<div className="container">
+<div className="row">
+<div className="col-md-4">
 
-
-
-
-
+<div className="feature-wrap">
+<i className="fa fa-laptop"> </i>
+<h2>Service 1</h2>
+<h3> Service provider management</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
 
         </div>)
     }
