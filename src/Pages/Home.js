@@ -59,7 +59,7 @@ class Home extends Component {
 					</button>
 				</div>
 				<section id="feature">
-					<div className="container">
+					<div className="container  text-center">
 						<h2>Features</h2>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam

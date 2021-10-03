@@ -28,4 +28,9 @@ background:#fff ;
 border-radius: 100%;
 line-height: 110px;
 text-align: center;
+border: 3px solid #fff;
+box-shadow: inset 0 0 0 5px #f2f2f2;
+color: #e8ce0e;
+float: left;
+margin-right: 25px;
 }
