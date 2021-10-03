@@ -6,5 +6,26 @@
 .feature-wrap{
 
     padding-bottom: 55px;
-    
+
+}
+.feature-wrap h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.feature-wrap h3{
+    font-size: 16px;
+    color: #787878;
+    font-weight:400 ;
+    line-height: 24px;
+}
+.feature-wrap i{
+
+    font-size: 40px;
+    height: 110px;
+    width: 110px;
+    margin:3px;
+background:#fff ;
+border-radius: 100%;
+line-height: 110px;
+text-align: center;
 }
