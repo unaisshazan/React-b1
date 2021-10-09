@@ -214,6 +214,17 @@ class Home extends Component {
 						</div>
 					</div>
 				</section>
+				<section id="faqs">
+				<div className="container  text-center pt-4">
+						<h2>Faqs</h2>
+						<p className="lead">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+							sequi ullam aspernatur provident consequuntur ea, soluta
+							exercitationem praesentium deleniti quae voluptatem consectetur
+							commodi iste culpa, rerum et cupiditate maxime dignissimos?
+						</p>
+					</div>
+				</section>
 			</div>
 		);
 	}
