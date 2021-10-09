@@ -111,7 +111,7 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
-/* 
+
 .grid .grid-item:hover { opacity: 1; }
 @media screen and (max-width: 1024px) {
 
@@ -120,7 +120,7 @@ input[type="checkbox"]:checked ~ .grid { opacity: .125; }
 @media screen and (max-width: 480px) {
 
 .grid .grid-item { width: 100%; }
-} */
+}
 
 .grid img {
   max-width: 100%;
