@@ -59,17 +59,10 @@ class Home extends Component {
 					</button>
 				</div>
 				<section id="feature">
-					<div className="container  text-center">
+					<div className="container  text-center pt-4">
 						<h2>Features</h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-							dolores, quaerat maxime fuga, optio obcaecati, iusto saepe placeat
-							suscipit consectetur dolorem eos quia itaque maiores ex tenetur
-							porro! Provident, corrupti. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Molestias praesentium non eos hic nostrum
-							aspernatur repudiandae ullam maxime totam dicta qui ducimus
-							consequuntur quas, saepe reiciendis assumenda ratione labore sunt?
-							. Lorem
+						<p className="lead">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sequi ullam aspernatur provident consequuntur ea, soluta exercitationem praesentium deleniti quae voluptatem consectetur commodi iste culpa, rerum et cupiditate maxime dignissimos? 
 						</p>
 					</div>
 					<div className="container">
@@ -83,41 +76,47 @@ class Home extends Component {
 							</div>
               <div className="col-md-4">
 								<div className="feature-wrap">
-									<i className="fa fa-laptop"> </i>
+									<i className="fa fa-mobile"> </i>
 									<h2>Service 1</h2>
 									<h3> Service provider management</h3>
 								</div>
 							</div>
               <div className="col-md-4">
 								<div className="feature-wrap">
-									<i className="fa fa-laptop"> </i>
+									<i className="fa fa-download"> </i>
 									<h2>Service 1</h2>
 									<h3> Service provider management</h3>
 								</div>
 							</div>
               <div className="col-md-4">
 								<div className="feature-wrap">
-									<i className="fa fa-laptop"> </i>
+									<i className="fa fa-sms"> </i>
 									<h2>Service 1</h2>
 									<h3> Service provider management</h3>
 								</div>
 							</div>
               <div className="col-md-4">
 								<div className="feature-wrap">
-									<i className="fa fa-laptop"> </i>
+									<i className="fa fa-wifi"> </i>
 									<h2>Service 1</h2>
 									<h3> Service provider management</h3>
 								</div>
 							</div>
               <div className="col-md-4">
 								<div className="feature-wrap">
-									<i className="fa fa-laptop"> </i>
+									<i className="fa fa-power-off"> </i>
 									<h2>Service 1</h2>
 									<h3> Service provider management</h3>
 								</div>
 							</div>
 						</div>
 					</div>
+				</section>
+				<section id="portfolio">
+<div className="container">
+
+	
+</div>
 				</section>
 			</div>
 		);
