@@ -136,7 +136,7 @@ class Home extends Component {
 						</label>
 						<input type="checkbox" id="pic-3" />
 						<label for="pic-3" class="lightbox">
-							<img src="http://unsplash.it/800/600?image=224" />
+							<img src="http://unsplash.it/800/600?image=21" />
 						</label>
 						<input type="checkbox" id="pic-4" />
 						<label for="pic-4" class="lightbox">
@@ -182,7 +182,7 @@ class Home extends Component {
 								<img src="http://unsplash.it/400/300?image=20" />
 							</label>
 							<label for="pic-3" class="grid-item">
-								<img src="http://unsplash.it/400/300?image=224" />
+								<img src="http://unsplash.it/400/300?image=21" />
 							</label>
 							<label for="pic-4" class="grid-item">
 								<img src="http://unsplash.it/400/300?image=42" />
