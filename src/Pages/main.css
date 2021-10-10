@@ -139,5 +139,12 @@ min-height: 100px;
 
 #services{
 background:#000 url(../images/services/bg_services.jpg) ;
+background-size: cover;
 
+}
+#services h2{
+    color:#fff;
+}
+#services .lead{
+    color:#fff;
 }
