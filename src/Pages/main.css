@@ -136,3 +136,8 @@ section{
 .spacer{
 min-height: 100px;    
 }
+
+#services{
+background:#000 url(../images/services/bg_services.jpg) ;
+
+}
