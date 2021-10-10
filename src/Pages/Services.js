@@ -34,6 +34,62 @@ class Services extends Component {
 									</div>
 								</div>
 							</div>
+                            <div className="col-md-4">
+								<div className="media service-wrap">
+									<div>
+										<img className="pr-3" src={Service2} alt="" />
+									</div>
+									<div className="media-body">
+										<h3 className="media-heading">Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
+                            <div className="col-md-4">
+								<div className="media service-wrap">
+									<div>
+										<img className="pr-3" src={Service3} alt="" />
+									</div>
+									<div className="media-body">
+										<h3 className="media-heading">Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
+                            <div className="col-md-4">
+								<div className="media service-wrap">
+									<div>
+										<img className="pr-3" src={Service4} alt="" />
+									</div>
+									<div className="media-body">
+										<h3 className="media-heading">Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
+                            <div className="col-md-4">
+								<div className="media service-wrap">
+									<div>
+									<img className="pr-3" src={Service5} alt="" /> 
+									</div>
+									<div className="media-body">
+										<h3 className="media-heading">Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
+                            <div className="col-md-4">
+								<div className="media service-wrap">
+									<div>
+										<img className="pr-3" src={Service6} alt="" />
+									</div>
+									<div className="media-body">
+										<h3 className="media-heading">Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</section>
