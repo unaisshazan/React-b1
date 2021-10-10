@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./main.css";
-import Service1 from '../images/services/services1.png'
-import Service2 from '../images/services/services2.png'
-import Service3 from '../images/services/services3.png'
-import Service4 from '../images/services/services4.png'
-import Service5 from '../images/services/services5.png'
-import Service6 from '../images/services/services6.png'
+import Service1 from "../images/services/services1.png";
+import Service2 from "../images/services/services2.png";
+import Service3 from "../images/services/services3.png";
+import Service4 from "../images/services/services4.png";
+import Service5 from "../images/services/services5.png";
+import Service6 from "../images/services/services6.png";
 
 class Services extends Component {
 	render() {
@@ -24,8 +24,16 @@ class Services extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4">
-                                <img src={Service1} alt="" />
-                            </div>
+								<div className="media">
+									<div>
+										<img src={Service1} alt="" />
+									</div>
+									<div className="media-body">
+										<h3>Digital Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
