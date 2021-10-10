@@ -24,12 +24,12 @@ class Services extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4">
-								<div className="media">
+								<div className="media service-wrap">
 									<div>
-										<img src={Service1} alt="" />
+										<img className="pr-3" src={Service1} alt="" />
 									</div>
 									<div className="media-body">
-										<h3>Digital Marketing</h3>
+										<h3 className="media-heading">Digital Marketing</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facilis quod quis optio atque dolores ad soluta? Nobis, esse excepturi earum error similique alias odit? A officiis omnis sunt quidem!</p>
 									</div>
 								</div>
