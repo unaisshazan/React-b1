@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import blog1 from '../images/blog/blog1.jpg'
+import blog2 from '../images/blog/blog2.jpg'
 class Blog extends Component {
 	render() {
 		return (
@@ -16,10 +17,10 @@ class Blog extends Component {
 						</div>
                         <div className="row"> 
                         <div className="col-md-6">
-                       <img src={} alt="" />
+                       <img src={blog1} alt="" />
                         </div>
                         <div className="col-md-6">
-                            
+                        <img src={blog2} alt="" />
                             </div>
                          </div>
 					</div>
