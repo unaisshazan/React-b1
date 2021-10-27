@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import public1 from "../images/public1.jpg";
-import public2 from "../images/public2.png";
+import public2 from "../images/public2.jpg";
 import public3 from "../images/public3.jpg";
 import "./main.css";
 
