@@ -16,7 +16,7 @@ class Blog extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-6 blog-content">
-								<img src={blog1} alt=""  className="img-blog"/>
+								<img src={blog1} alt=""  className="img-blog img-fluid"/>
 								<h3>
 								
 									<a href="">
@@ -33,7 +33,7 @@ class Blog extends Component {
 								<button className="btn btn-primary"> Read More ....</button>
 							</div>
 							<div className="col-md-6">
-							<img src={blog2} alt=""  className="img-blog"/>
+							<img src={blog2} alt=""  className="img-blog img-fluid"/>
 								<h3>
 								
 									<a href="">
