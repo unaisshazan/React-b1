@@ -24,8 +24,9 @@ class About extends Component {
 					 : //else
 					<p>
 					{this.state.aboutpage.fields.aboutDescription}
-					</p>
-	}
+				
+					</p>}
+	
 				</div>
 			</div>
 		);
