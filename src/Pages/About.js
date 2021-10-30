@@ -19,10 +19,7 @@ class About extends Component {
 				<div className="container">
 					<h2 className="text-center">About Us</h2>
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-						maiores sint expedita, sequi porro quidem. Velit iusto, voluptates
-						illo sint sapiente magni vel beatae. Distinctio expedita dolor sit
-						consequuntur ea.
+					{this.state.aboutpage.fields.aboutDescription}
 					</p>
 				</div>
 			</div>
