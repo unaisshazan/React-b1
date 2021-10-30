@@ -1,6 +1,11 @@
 import React, { Component } from "react";
-
+import client  from "./Client";
 class About extends Component {
+	constructor(){
+		super()
+		this.state ={aboutpage : []}
+	}
+	
 	render() {
 		return (
 			<div>
