@@ -1,11 +1,18 @@
 import React, { Component } from "react";
-import client  from "./Client";
+import client from "./Client";
 class About extends Component {
-	constructor(){
-		super()
-		this.state ={aboutpage : []}
+	constructor() {
+		super();
+		this.state = { aboutpage: [] };
 	}
-	
+	componentDidMount() {
+		client.getEntries({
+				'content_type' : 'about'
+			})
+			.then( (entries) =>{
+				this.setState({aboutpage: entries.items.length}); // 200
+			});
+	}
 	render() {
 		return (
 			<div>
