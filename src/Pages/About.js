@@ -10,7 +10,7 @@ class About extends Component {
 				'content_type' : 'about'
 			})
 			.then( (entries) =>{
-				this.setState({aboutpage: entries.items.length}); // 200
+				this.setState({aboutpage: entries.items[0]}); // 200
 			});
 	}
 	render() {
