@@ -18,9 +18,14 @@ class About extends Component {
 			<div>
 				<div className="container">
 					<h2 className="text-center">About Us</h2>
+					{ this.state.aboutpage.length === 0
+					 ? //if
+					<div> Loading… </div>
+					 : //else
 					<p>
 					{this.state.aboutpage.fields.aboutDescription}
 					</p>
+	}
 				</div>
 			</div>
 		);
