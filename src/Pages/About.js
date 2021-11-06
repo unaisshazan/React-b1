@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import client from './Client'
 import BlackLoader from '../images/black-loader.gif'
-import marked from 'marked'
+import ReactMarkdown from 'react-markdown'
 
 class About extends Component {
     constructor() {
@@ -17,11 +17,7 @@ class About extends Component {
           })
     }
 
-    getParsedMarkdown(aboutDescription) {
-        return{
-            __html:marked(aboutDescription, {sanitize:true})
-        }
-    }
+
 
     render() {
         return(
@@ -31,10 +27,8 @@ class About extends Component {
                     {this.state.aboutpage.length === 0 ?
                         <div align="center" className="pt-5"> <img src={BlackLoader} alt="Loader" /> </div>
                         :
-                        <div dangerouslySetInnerHTML = {this.getParsedMarkdown(this.state.aboutpage.fields.aboutDescription)}>
-
-                        </div>
-                        // <p>{this.state.aboutpage.fields.aboutDescription}</p>
+                       
+                         <p>{this.state.aboutpage.fields.aboutDescription}</p>
                     }
                 </div>
             </div>
