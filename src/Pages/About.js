@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import client from './Client'
-import BlackLoader from '../images/black-loader.gif'
 import marked from 'marked'
+import BlackLoader from '../images/black-loader.gif'
 
 class About extends Component {
     constructor() {
