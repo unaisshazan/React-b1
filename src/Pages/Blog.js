@@ -1,8 +1,20 @@
 import React, { Component } from "react";
-import blog1 from "../images/blog/blog1.jpg";
-import blog2 from "../images/blog/blog2.jpg";
 import "./main.css";
+import client from './Client'
+
 class Blog extends Component {
+	constructor(){
+		super()
+		this.state= { blogpage:[]}
+	}
+	componentDidMount() {
+        client.getEntries({
+            'content_type': 'blog', 'order': '-sys.createdAt'
+        }).then((entries) => {
+            this.setState({ blogpage: entries.items.length })
+        })
+        
+    }
 	render() {
 		return (
 			<div>
@@ -15,7 +27,9 @@ class Blog extends Component {
 							</p>
 						</div>
 						<div className="row">
-							<div className="col-md-6 blog-content">
+
+							{this.state.blogpage.map((item,index) =>{
+								return(<div className="col-md-6 blog-content">
 								<img src={blog1} alt=""  className="img-blog img-fluid"/>
 								<h3>
 								
@@ -31,24 +45,12 @@ class Blog extends Component {
 									libero.
 								</p>
 								<button className="btn btn-primary"> Read More ....</button>
-							</div>
-							<div className="col-md-6">
-							<img src={blog2} alt=""  className="img-blog img-fluid"/>
-								<h3>
-								
-									<a href="">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									</a>
-								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Illum, repellat fuga! Consequuntur repellat sed facere autem
-									non eius aliquid voluptatem, repudiandae molestiae, voluptatum
-									dignissimos aperiam blanditiis consectetur perferendis nisi
-									libero.
-								</p>
-								<button className="btn btn-primary"> Read More ....</button>
-							</div>
+							</div>)
+							}
+
+							
+						)	}
+					
 						</div>
 					</div>
 				</section>
