@@ -42,7 +42,7 @@ class Blog extends Component {
 										<p>
 											{item.fields.blogDescription}
 										</p>
-										<button className="btn btn-primary"> Read More ....</button>
+										<button className="btn btn-primary"> 	<Link to={`../Blogs/${item.fields.slug}`}> Read More .... 	</Link></button>
 									</div>
 								);
 							})}
