@@ -56,3 +56,5 @@ class SingleArticle extends Component {
 		);
 	}
 }
+
+export default SingleArticle;

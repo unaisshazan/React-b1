@@ -22,7 +22,7 @@ render(){
    <Route exact path="/About" component={About}/>
    <Route exact path="/Services" component={Services}/>
    <Route exact path="/Blog" component={Blog}/>
-   <Route exact path="/Blog:slug" component={Blog}/>
+   <Route exact path="/Blog:slug" component={SingleArticle}/>
    <Route exact path="/Contact" component={Contact}/>
 
     <Footer/>
