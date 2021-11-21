@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
-import SingleArticle from './Pages/SingleArticle';
+import SingleArticle from './Pages/SingleArticle'
 
 
 class App extends Component{
@@ -22,7 +22,7 @@ render(){
    <Route exact path="/About" component={About}/>
    <Route exact path="/Services" component={Services}/>
    <Route exact path="/Blog" component={Blog}/>
-   <Route exact path="/Blog:slug" component={SingleArticle}/>
+   <Route exact path="/Blog/:slug" component={SingleArticle}/>
    <Route exact path="/Contact" component={Contact}/>
 
     <Footer/>
