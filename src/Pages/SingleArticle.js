@@ -19,7 +19,7 @@ class SingleArticle extends Component {
             content_type: "blog" ,"fields.slug":slug
         })
         .then((entries) => {
-            this.setState(entries.items[0] );
+            this.setState({article:entries.items[0] });
         });
 }
 
