@@ -11,15 +11,20 @@ class SingleArticle extends Component {
 		this.state = { article: [] };
 	}
 	componentDidMount() {
-		client
-			.getEntries({
-				content_type: "services",
-			})
-			.then((entries) => {
-				this.setState({ servicepage: entries.items });
-			});
-	}
+        const slug = this.props.match.params.slug
+       
+    if (slug){
+        client
+        .getEntries({
+            content_type: "blog" ,"fields.slug":slug
+        })
+        .then((entries) => {
+            this.setState(entries.items[0] );
+        });
+}
 
+    }
+	
 	render() {
 		return (
 			<div className="container">
