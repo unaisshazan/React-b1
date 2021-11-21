@@ -29,6 +29,9 @@ class SingleArticle extends Component {
 			__html: marked(blogDescription, { sanitize: true }),
 		};
 	}
+    redirectToTarget= ()=>{
+        this.props.history.push('/Blog')
+    }
 
 	render() {
 		return (
@@ -42,9 +45,9 @@ class SingleArticle extends Component {
 					<div className="container">
 						<div className="row">
 							<div className="col-md-12">
-								<h2>This is blog Title</h2>
-								<p>This is blog desc</p>
-								<p> Back</p>
+								<h2>{this.start.article.fields.blogTitle}</h2>
+                                <p dangerouslySetInnerHTML = {this.getParsedMarkdown(this.state.article.fields.blogDescription)}> </p>
+								<p><Link to = "#" onClick={this.redirectToTarget}>Back </Link></p>
 							</div>
 						</div>
 					</div>
