@@ -35,14 +35,14 @@ class Blog extends Component {
 									<div key={index} className="col-md-6 blog-content">
 										<img src={item.fields.blogThumbnail.fields.file.url} alt="" className="img-blog img-fluid" />
 										<h3>
-											<Link to={`../Blogs/${item.fields.slug}`}> 
+											<Link to={`../Blog/${item.fields.slug}`}> 
 											{item.fields.blogTitle}
 											</Link>
 										</h3>
 										<p>
 											{item.fields.blogDescription}
 										</p>
-										<button className="btn btn-primary"> 	<Link to={`../Blogs/${item.fields.slug}`}> Read More .... 	</Link></button>
+										<button className="btn btn-primary"> 	<Link to={`../Blog/${item.fields.slug}`}> Read More .... 	</Link></button>
 									</div>
 								);
 							})}
