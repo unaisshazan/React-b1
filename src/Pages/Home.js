@@ -17,6 +17,12 @@ class Home extends Component {
             this.setState({homebanner: entries.items}) 
           })
 	}
+	setClass = (index) =>{
+		if(index===0){
+		return 	"carousel-item active"
+		}
+		else return "carousel-item"
+	}
 	render() {
 		return (
 			<div>
@@ -29,10 +35,10 @@ class Home extends Component {
 					<div className="carousel-inner">
 					{this.state.homebanner.map((item,index)=>{
                      return(	
-					 <div className="carousel-item active">
+					 <div key={index} className={this.setClass(index)}>
 
 					 <img
-						 src={public1}
+						 src={item.fields.homeBannerImage.fields.file.url}
 						 height="500px"
 						 className="d-block w-100"
 						 alt="..."
