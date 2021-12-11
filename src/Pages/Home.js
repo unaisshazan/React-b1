@@ -1,10 +1,22 @@
 import React, { Component } from "react";
-import public1 from "../images/public1.jpg";
-import public2 from "../images/public2.jpg";
-import public3 from "../images/public3.jpg";
+import BlackLoader from '../images/black-loader.gif'
 import "./main.css";
+import client from './Client'
 
 class Home extends Component {
+	constructor(){
+		super()
+		this.set = {
+			homebanner = []
+		}
+	}
+	componentDidMount(){
+		client.getEntries({
+            'content_type' : 'homeBanner'
+          }).then( (entries) => {
+            this.setState({homebanner: entries.items}) 
+          })
+	}
 	render() {
 		return (
 			<div>
@@ -13,31 +25,22 @@ class Home extends Component {
 					className="carousel slide"
 					data-bs-ride="carousel"
 				>
+				
 					<div className="carousel-inner">
-						<div className="carousel-item active">
-							<img
-								src={public1}
-								height="500px"
-								className="d-block w-100"
-								alt="..."
-							/>
-						</div>
-						<div className="carousel-item">
-							<img
-								src={public2}
-								height="500px"
-								className="d-block w-100"
-								alt="..."
-							/>
-						</div>
-						<div className="carousel-item">
-							<img
-								src={public3}
-								height="500px"
-								className="d-block w-100"
-								alt="..."
-							/>
-						</div>
+					{this.state.homebanner.map((item,index)=>{
+                     return(	<div className="carousel-item active">
+					 <img
+						 src={public1}
+						 height="500px"
+						 className="d-block w-100"
+						 alt="..."
+					 />
+				 </div>)
+
+
+					} )}
+					
+						
 					</div>
 					<button
 						className="carousel-control-prev"
