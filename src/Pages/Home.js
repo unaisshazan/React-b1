@@ -6,8 +6,8 @@ import client from './Client'
 class Home extends Component {
 	constructor(){
 		super()
-		this.set = {
-			homebanner = []
+		this.state = {
+			homebanner : []
 		}
 	}
 	componentDidMount(){
@@ -28,14 +28,16 @@ class Home extends Component {
 				
 					<div className="carousel-inner">
 					{this.state.homebanner.map((item,index)=>{
-                     return(	<div className="carousel-item active">
+                     return(	
+					 <div className="carousel-item active">
+
 					 <img
 						 src={public1}
 						 height="500px"
 						 className="d-block w-100"
 						 alt="..."
 					 />
-				 </div>)
+				    </div>)
 
 
 					} )}
